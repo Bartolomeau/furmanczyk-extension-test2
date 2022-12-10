@@ -26,8 +26,7 @@ public class Mother {
     public Mother() {
     }
 
-    public Mother(Long id, String name, Integer age, Set<Newborn> newborns) {
-        this.id = id;
+    public Mother(String name, Integer age, Set<Newborn> newborns) {
         this.name = name;
         this.age = age;
         this.newborns = newborns;
@@ -49,7 +48,4 @@ public class Mother {
         return newborns;
     }
 
-//    public void setNewborns(Set<Newborn> newborns) {
-//        this.newborns = newborns;
-//    }
 }

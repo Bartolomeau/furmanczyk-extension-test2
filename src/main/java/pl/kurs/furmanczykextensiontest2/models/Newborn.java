@@ -72,20 +72,4 @@ public class Newborn {
         return heightInCentimeters;
     }
 
-//    public void setMother(Mother mother) {
-//        this.mother = mother;
-//    }
-
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        Newborn newborn = (Newborn) o;
-        return Objects.equals(id, newborn.id) && Objects.equals(sex, newborn.sex) && Objects.equals(name, newborn.name) && Objects.equals(birthDate, newborn.birthDate) && Objects.equals(weightInGrams, newborn.weightInGrams) && Objects.equals(heightInCentimeters, newborn.heightInCentimeters);
-    }
-
-    @Override
-    public int hashCode() {
-        return Objects.hash(id, sex, name, birthDate, weightInGrams, heightInCentimeters);
-    }
 }
