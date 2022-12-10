@@ -72,10 +72,6 @@ public class Newborn {
         return heightInCentimeters;
     }
 
-//    public void setMother(Mother mother) {
-//        this.mother = mother;
-//    }
-
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
