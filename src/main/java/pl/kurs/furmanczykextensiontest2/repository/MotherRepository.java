@@ -5,5 +5,4 @@ import pl.kurs.furmanczykextensiontest2.models.Mother;
 
 public interface MotherRepository extends JpaRepository<Mother, Long> {
 
-
 }
