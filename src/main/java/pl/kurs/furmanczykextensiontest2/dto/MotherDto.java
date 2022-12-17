@@ -7,11 +7,8 @@ import java.util.Set;
 public class MotherDto {
 
     private Long id;
-
     private String name;
-
     private Integer age;
-
     private Set<Newborn> newborns = new HashSet<>();
 
     public Long getId() {

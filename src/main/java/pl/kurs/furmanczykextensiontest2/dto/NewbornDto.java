@@ -6,17 +6,11 @@ import java.time.LocalDate;
 public class NewbornDto {
 
     private Long id;
-
     private Character sex;
-
     private String name;
-
     private LocalDate birthDate;
-
     private Integer weightInGrams;
-
     private Integer heightInCentimeters;
-
     private Mother mother;
 
     public Long getId() {
